@@ -3,6 +3,7 @@ import { BsChevronDoubleDown } from "react-icons/bs";
 import { useLayoutEffect, useRef } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import React from "react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -10,6 +11,7 @@ import "swiper/css/effect-cards";
 
 // import required modules
 import { EffectCards } from "swiper";
+import heroImage from './images/hero-img.jpg'
 
 const Home = () => {
   const home = useRef();
@@ -44,7 +46,7 @@ const Home = () => {
               1000,
               "Passionate Coder.",
               1000,
-              "Progressive Learner As Well",
+              "Progressive Learner As Well.",
               1000,
             ]}
             style={{
@@ -75,7 +77,7 @@ const Home = () => {
           <SwiperSlide className="swiper-slide">
             <figure className="rounded-md bg-lime-400 p-1">
               <img
-                src="./images/hero-img.jpg"
+                src={heroImage}
                 alt=""
                 className="slide-img rounded-md"
               />
@@ -84,7 +86,7 @@ const Home = () => {
           <SwiperSlide className="swiper-slide">
             <figure className="rounded-md bg-lime-400 p-1">
               <img
-                src="./images/hero-img.jpg"
+                src={heroImage}
                 alt=""
                 className="slide-img rounded-md"
               />
@@ -93,7 +95,7 @@ const Home = () => {
           <SwiperSlide className="swiper-slide">
             <figure className="rounded-md bg-lime-400 p-1">
               <img
-                src="./images/hero-img.jpg"
+                src={heroImage}
                 alt=""
                 className="slide-img rounded-md"
               />
@@ -102,7 +104,7 @@ const Home = () => {
           <SwiperSlide className="swiper-slide">
             <figure className="rounded-md bg-lime-400 p-1">
               <img
-                src="./images/hero-img.jpg"
+                src={heroImage}
                 alt=""
                 className="slide-img rounded-md"
               />
@@ -111,7 +113,7 @@ const Home = () => {
           <SwiperSlide className="swiper-slide">
             <figure className="rounded-md bg-lime-400 p-1">
               <img
-                src="./images/hero-img.jpg"
+                src={heroImage}
                 alt=""
                 className="slide-img rounded-md"
               />

@@ -23,4 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 src/index.css
+dist/
+htet_zarni_cv_resume.pdf
 

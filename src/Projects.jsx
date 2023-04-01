@@ -6,6 +6,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { useLayoutEffect, useRef } from "react";
+import project1 from './images/project-one.png';
+import project2 from './images/project-two.png';
+import project3 from './images/project-three.png';
+import project4 from './images/project-four.png';
+import project5 from './images/project-five.png';
+
+
 
 const Projects = () => {
   const projects = useRef();
@@ -69,7 +76,7 @@ const Projects = () => {
             onClick={onEnter}
             onMouseLeave={onLeave}
           >
-            <img src="./images/project-one.png" alt="" className="" />
+            <img src={project1} alt="" className="" />
             <div className="project-text absolute bg-slate-100 flex top-0 left-0 w-full h-full items-center justify-center flex-col space-y-2 md:space-y-8 z-50 -translate-y-full">
               <p className="text-xs md:text-base text-center px-4 md:w-1/2 text-zinc-900">
                 Landing page for Manage,ltd , I build this website with mainly
@@ -91,7 +98,7 @@ const Projects = () => {
             onClick={onEnter}
             onMouseLeave={onLeave}
           >
-            <img src="./images/project-two.png" alt="" />
+            <img src={project2} alt="" />
             <div className="project-text absolute bg-slate-100 flex top-0 left-0 w-full h-full items-center justify-center flex-col space-y-2 md:space-y-8 z-50 -translate-y-full">
               <p className="text-xs md:text-base text-center px-4 md:w-1/2 text-zinc-900">
                 Landing page for Fylo,ltd , I also build this website with
@@ -113,7 +120,7 @@ const Projects = () => {
             onClick={onEnter}
             onMouseLeave={onLeave}
           >
-            <img src="./images/project-three.png" alt="" />
+            <img src={project3} alt="" />
             <div className="project-text absolute bg-slate-100 flex top-0 left-0 w-full h-full items-center justify-center flex-col space-y-2 md:space-y-8 z-50 -translate-y-full">
               <p className="md:text-base text-xs text-center px-4 md:w-1/2 text-zinc-900">
                 A TO-DO list web-app, you can add TO-DO lists, mark the
@@ -136,7 +143,7 @@ const Projects = () => {
             onClick={onEnter}
             onMouseLeave={onLeave}
           >
-            <img src="./images/project-four.png" alt="" className="" />
+            <img src={project4} alt="" className="" />
             <div className="project-text absolute bg-slate-100 flex top-0 left-0 w-full h-full items-center justify-center flex-col space-y-2 md:space-y-8 z-50 -translate-y-full">
               <p className="md:text-base text-xs text-center px-4 md:w-1/2 text-zinc-900">
                 Tenzies Dice Game, you can roll the dice until all dices have
@@ -159,7 +166,7 @@ const Projects = () => {
             onClick={onEnter}
             onMouseLeave={onLeave}
           >
-            <img src="./images/project-five.png" alt="" />
+            <img src={project5} alt="" />
             <div className="project-text absolute bg-slate-100 flex top-0 left-0 w-full h-full items-center justify-center flex-col space-y-2 md:space-y-8 z-50 -translate-y-full">
               <p className="md:text-base text-xs text-center px-4 md:w-1/2 text-zinc-900">
                 MeMe Generator, It will generate random MeMe images everytime
