@@ -1,5 +1,5 @@
-# My Portfolio
----
+## My Portfolio
+
 This is my official portfolio website.
 I built the website mainly with **ReactJS** and **TailwindCSS** for _styling_.
 I also used some other third-party library for the portfolio like **Swiper**.
