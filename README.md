@@ -1,4 +1,4 @@
-# portfolio
+# My Portfolio
 
 This is my official portfolio website.
 I built the website with mainly ReactJS and TailwindCSS for styling.
